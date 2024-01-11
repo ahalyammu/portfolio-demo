@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lora', serif;
+}
+nav{
+    background-color: black;
+    height: 50px;
+    display: flex;
+    justify-content: end;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.nav-content{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    margin-left: 25px;
+}
+.nav-content p{
+    color: #fff;
+    font-weight: bolder;
+    font-size: x-large;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    margin: 15px;
+}
+nav ul li a{
+    text-decoration:none;
+    padding: 10px;
+    color: #fff;
+    font-weight: 900;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+video{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+span{
+    color: darkred;
+    font-weight: bolder;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+}
+#home::before{
+    content:"";
+    background-image: url("https://assets.gqindia.com/photos/5cdc1d5fb6f0b3ebcec70fad/4:3/w_1440,h_1080,c_limit/chetan-bhagat-joy-datta.jpg");
+    height: 100%;
+    background-size: cover;
+}
+.main{
+    padding: 50px;
+    display: flex;
+    position: absolute;
+    top: 660px;
+    left: 58%;
+}
+.main1{
+    border: 2px inset darkorchid;
+    text-align: justify;
+    height: 300px;
+    width: 400px;
+    padding: 50px;
+    display: flex;
+    position: absolute;
+    top: 760px;
+    left: 55%;
+    box-shadow: 4px 6px;
+}
+.main1:hover{
+    background-color: beige;
+}
+h3{
+    color: black;
+    text-align: center;
+    margin: 15px;
+    font-size: x-large;
+    text-shadow: 4px 5px 6px;
+}
+.row{
+    display: flex;
+}
+.box{
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+}
+.box img{
+    width: 100%;
+    border-radius: 20px;
+}
+.box h4{
+    color: darkorchid;
+    margin: 5px;
+    text-align: center;
+    text-shadow: 4px 5px 6px;
+}
+.box p{
+    text-align: center;
+    font-weight: 700;
+    padding: 10px;
+}
+.more{
+    background-color: chocolate;
+    color: azure;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 20%;
+    margin-left: 48%;
+}
+.row1{
+    display: flex;
+}
+.col-1{
+    width: 50%;
+    display: block;
+}
+h4{
+    margin-left: 190px;
+    color: blueviolet;
+}
+.input{
+    width: 50%;
+    margin: 12px;
+    margin-left: 100px;
+}
+button{
+    color: beige;
+    background-color: black;
+}
+.col-2{
+    display: block;
+}
+h5{
+    font-size: medium;
+    color: darkred;
+}
+.abc{
+    margin-top: 10px;
+    margin-left: 100px;
+}
+.fff{
+    display: flex;
+    justify-content: space-evenly;
+}
+#contact{
+    background-color: lightgray;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.footer-content ul li {
+    display: inline;
+    margin-left: 20px;
+}
+.footer-content ul li a {
+    color: white;
+    text-decoration: none;
+}
